@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -127,25 +126,37 @@ a {
 }
 /*DOWNLOAD*/ 
 .download {
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 .download-section {
     width: 900px;
-    height: 120px;
+    min-height: 20vh;
     border-radius: 10px;
-    border: 2px orangered solid;
+    border: 3px white solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 90px;
+    background-color: rgb(243, 194, 177);
 }
+#download-button {
+    min-width: 150px;
+    min-height: 35px;
+    font-weight: 600;
+    background-color: rgb(255, 92, 124);
+    border-radius: 8px;
+}
+
 /*FOOTER*/ 
 .footer {
-    height: 5vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(241, 236, 228);
+    margin-top: 15px;
 }
